@@ -3,6 +3,9 @@
 import urllib
 import json
 
+
+#Sample web address for data: http://python-data.dr-chuck.net/comments_199687.json
+
 while True:
 	url= raw_input("Enter Location:")
 	if len(url) < 1: break
